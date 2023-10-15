@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 15</title>
+    <style>
+        body {
+            background-image: url(https://spiffy-fire-8ed.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00607fab-2ebf-48a1-9db6-4b992ec36984%2Fa6ef9fae-ee41-48e3-a298-06f4ce87f407%2FUntitled.png?table=block&id=10c4829e-1539-41e8-835e-06df8d7c42a3&spaceId=00607fab-2ebf-48a1-9db6-4b992ec36984&width=1250&userId=&cache=v2);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+        }
+
+        #form {
+            min-height: 550px;
+            min-width: 400px;
+            justify-content: center;
+            margin-left: 35%;
+            /* transform: translate(-50%, -50%); */
+            background-color: white;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        #form-details{
+            border-top: 1px solid rgb(232, 232, 232);;
+            border-bottom: 1px solid rgb(232, 232, 232);;
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            height: max-content;
+            padding-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 0px;
+            font-weight: bold;
+            margin-left: 3px;
+        }
+
+        input {
+            background-color: rgb(232, 232, 232);
+            height: 20px;
+            width: 350px;
+            padding: 3px;
+            border: none;
+            border-radius: 30px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 0px;
+            margin-left: 3px;
+            padding: 10px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            height: 40px;
+            width: 370px;
+            background-color: rgb(70, 59, 59);
+            font-weight: bold;
+            color: white;
+            border: 0px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form">
+        <h3>Sign Up</h3>
+        <div id="form-details">
+            <div>
+                <p><label>First Name</label></p>
+                <input type="text" name="First name" placeholder="ex.Jhon">
+            </div>
+            <div>
+                <p><label>Last Name</label></p>
+                <input type="text" name="Last name" placeholder="ex.Smith">
+            </div>
+            <div>
+                <p><label>Email</label></p>
+                <input type="email" name="Email" placeholder="example@gmail.com">
+            </div>
+            <div>
+                <p><label>Date of Birth</label></p>
+                <input type="date" name="Date-of-birth">
+            </div>
+            <div>
+                <p><label>Password</label></p>
+                <input type="password" name="password" placeholder="Enter Password">
+            </div>
+            <div>
+                <p><label>Confirm Password</label></p>
+                <input type="password" name="password" placeholder="Enter Password">
+            </div>
+        </div>
+        <div class="btn">
+            <button type="submit">Register</button>
+        </div>
+    </div>
+</body>
+
+</html>
